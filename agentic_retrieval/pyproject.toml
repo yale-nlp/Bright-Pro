@@ -1,0 +1,17 @@
+[project]
+name = "bright-pro-agentic"
+version = "0.1.0"
+description = "Agentic-search evaluation pipeline for the Bright-Pro benchmark."
+requires-python = ">=3.10"
+dependencies = [
+    "accelerate>=1.0",
+    "datasets>=4.0.0",
+    "openai>=1.97.0",
+    "python-dotenv>=1.1.1",
+    "tqdm>=4.67.1",
+    "sentence-transformers>=2.7.0",
+    "transformers==4.55.2",
+    "torch>=2.7",
+    "pyserini>=0.43",
+    "gritlm>=1.0.2",
+]

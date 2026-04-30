@@ -1,0 +1,11 @@
+datasets>=4.0
+gritlm>=1.0.2
+openai>=1.97
+pyserini>=0.43
+pytrec-eval
+sentence-transformers>=2.7
+tiktoken
+torch>=2.7
+torchmetrics
+tqdm
+transformers==4.55.2

@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual envs
+.venv/
+venv/
+.python-version
+
+# Secrets
+.env
+.env.local
+
+# Run artifacts
+outputs/
+runs/
+fixed_turn_runs/
+cache/
+logs/
+wandb/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Build
+build/
+dist/
